@@ -41,6 +41,15 @@ export default function HomePage() {
           <div className="text-base font-semibold">Register New Item</div>
           <div className="text-sm text-slate-600">Replaces the manual CSV upload.</div>
         </Link>
+        <Link
+          href="/events"
+          className="block rounded-lg border border-slate-200 p-4 hover:border-slate-400"
+        >
+          <div className="text-base font-semibold">Browse GIX Events</div>
+          <div className="text-sm text-slate-600">
+            Lectures, workshops, panels, mixers &mdash; with category filter.
+          </div>
+        </Link>
       </div>
     </section>
   );

@@ -22,6 +22,19 @@ export type Item = {
   created_at: string;
 };
 
+export type EventCategory = "lecture" | "workshop" | "career" | "social";
+
+export type EventRow = {
+  id: string;
+  title: string;
+  description: string | null;
+  category: EventCategory;
+  starts_at: string;
+  ends_at: string | null;
+  location: string | null;
+  created_at: string;
+};
+
 export type Checkout = {
   id: string;
   item_id: string;

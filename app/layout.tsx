@@ -23,6 +23,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               <Link href="/items" className="rounded px-3 py-2 hover:bg-slate-100">
                 Browse
               </Link>
+              <Link href="/events" className="rounded px-3 py-2 hover:bg-slate-100">
+                Events
+              </Link>
               <Link href="/checkout" className="rounded px-3 py-2 hover:bg-slate-100">
                 Checkout
               </Link>
